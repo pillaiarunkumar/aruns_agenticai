@@ -1,0 +1,14 @@
+def register_user(name, email, age):
+    birth_year = 2026 - age   # assumes age is an int — nothing enforces that
+    print(f"Registered {name}, born approx. {birth_year}")
+
+# Looks fine...
+register_user("Aditi", "aditi@example.com", 28)
+
+# # ...until real-world data shows up like this:
+# register_user("Rohan", "rohan@example.com", "unknown")
+# # TypeError: unsupported operand type(s) for -: 'int' and 'str'
+# # Notice WHERE it crashed: deep inside the function, not at the door.
+
+good_form_data = {"name": "Aditi", "email": "aditi@example.com", "age": 28}
+register_user(**good_form_data)

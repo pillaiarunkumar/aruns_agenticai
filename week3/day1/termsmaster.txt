@@ -1,0 +1,27 @@
+https://resilient-marzipan-839ad0.netlify.app/
+
+1)LLM = Large Language Model: an AI model trained on lots of text to understand and generate human-like language.
+
+Raptor 
+Large Language model
+  Gemini is a LLMM
+
+
+T2)Token https://platform.openai.com/tokenizer
+roughly 34th of word
+Token is currency of AI
+
+3) Vector Embedding
+ Once text is broken into tokens gets converted to  long list of numbers --- Vector
+ A vector is a simple ordered list of numbers that represents direction and size.
+  In AI/ML, it often means a numeric “feature” list used to describe data.
+
+4) Embedding
+vector: any ordered list of numbers.
+embedding: a special vector that encodes meaning so similar items are close.
+
+5)context window
+A context window is how much text the model can “see” at once when making a reply. It is usually measured in tokens, and anything beyond that limit is not directly available to the model.
+
+6) Parameters
+ 
